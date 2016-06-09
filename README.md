@@ -6,5 +6,5 @@ displays it on a an LCD through I2C while also sending data through USB to a Pyt
 	- Resources/lab8 - Contains project files for use with Code Composer Studio (Eclipse based IDE) for
 	                   executing the code on thr microcontroller (used examples from MSP430 Tutorials).
 	- lab8.py  - This is the python application for the PC to parse data recieved through USB and 
-	             for plotting it using the matlibplot library (Python 3.5).
+	             for plotting it using the matplotlib library (Python 3.5).
 
