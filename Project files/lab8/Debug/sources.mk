@@ -103,4 +103,14 @@ S64_DEPS__QUOTED :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 . \
+driverlib/MSP430F5xx_6xx \
+driverlib/MSP430F5xx_6xx/deprecated \
+USB_config \
+USB_app \
+USB_API \
+USB_API/USB_PHDC_API \
+USB_API/USB_MSC_API \
+USB_API/USB_HID_API \
+USB_API/USB_Common \
+USB_API/USB_CDC_API \
 

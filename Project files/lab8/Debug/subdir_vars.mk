@@ -7,21 +7,33 @@ CMD_SRCS += \
 ../lnk_msp430f5529.cmd 
 
 C_SRCS += \
-../main.c 
+../hal.c \
+../main.c \
+../system_pre_init.c 
 
 OBJS += \
-./main.obj 
+./hal.obj \
+./main.obj \
+./system_pre_init.obj 
 
 C_DEPS += \
-./main.pp 
+./hal.pp \
+./main.pp \
+./system_pre_init.pp 
 
 C_DEPS__QUOTED += \
-"main.pp" 
+"hal.pp" \
+"main.pp" \
+"system_pre_init.pp" 
 
 OBJS__QUOTED += \
-"main.obj" 
+"hal.obj" \
+"main.obj" \
+"system_pre_init.obj" 
 
 C_SRCS__QUOTED += \
-"../main.c" 
+"../hal.c" \
+"../main.c" \
+"../system_pre_init.c" 
 
 

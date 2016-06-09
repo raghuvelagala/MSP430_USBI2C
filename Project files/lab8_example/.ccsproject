@@ -5,8 +5,9 @@
 	<deviceFamily value="MSP430"/>
 	<codegenToolVersion value="4.3.3"/>
 	<isElfFormat value="true"/>
+	<connection value="common/targetdb/connections/TIMSP430-USB.xml"/>
 	<linkerCommandFile value="lnk_msp430f5529.cmd"/>
 	<rts value="libc.a"/>
 	<createSlaveProjects value=""/>
-	<templateProperties value="id=C1_LedOnOff.projectspec.C1_LedOnOff,"/>
+	<templateProperties value="id=com.ti.common.project.core.emptyProjectWithMainTemplate_msp430,"/>
 </projectOptions>
